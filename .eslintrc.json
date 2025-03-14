@@ -31,8 +31,9 @@
 	],
 	"parser": "@typescript-eslint/parser",
 	"parserOptions": {
-		"project": "./backend/tsconfig.json"
-	},
+		"ecmaVersion": 2022,
+		"project": true
+	  },
 	"settings": {
 		"jest": {
 			"version": 29
